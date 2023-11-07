@@ -1,0 +1,117 @@
+/* Estilos para el formulario principal */
+#registroPacienteForm, #registroOdontologoForm {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para los títulos */
+  h2 {
+    font-size: 28px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Alineación centrada */
+    color: #1f2328; /* Color del texto (puedes cambiarlo según tu preferencia) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+    margin-bottom: 20px; /* Espacio en la parte inferior */
+  }
+  
+  /* Estilos para las etiquetas de los campos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de registro */
+  button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--card-bg);
+    color: var(--white);
+    font-weight: bold;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.5s;
+    margin-left: 30%;
+  }
+  
+button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+  } 
+
+  :root {
+    --card-bg: #cb1e41bd;
+    --shadow: 2px 5px 5px darkgray;
+    --white: whitesmoke;
+    --border-gray: 2px solid darkgray;
+  }
+  
+
+
+body {
+    background-image: url('/img/foto1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+ /* Estilos para el contenedor de la lista de pacientes */
+ #listaPacientes {
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+  margin: auto;
+  max-width: 31vw;
+}
+
+/* Estilos para los elementos de la lista de pacientes */
+#listaPacientes ul {
+  list-style:circle;
+  padding: 0;
+}
+
+#listaPacientes li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+
+/* Estilos para el contenedor de la lista de odontologos */
+#listaOdontologos {
+  border: 1px solid #ccc;
+  background-color: #f7dbdb;
+  padding: 10px;
+  margin-top: 10px;
+  margin: auto;
+  max-width: 31vw;
+}
+
+/* Estilos para los elementos de la lista de pacientes */
+#listaOdontologos ul {
+  list-style:circle;
+  padding: 0;
+}
+
+#listaOdontologos li {
+  margin: 5px 0;
+  font-size: 16px;
+}

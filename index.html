@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h2>Registro para pacientes</h2>
+
+    <form id="registroPacienteForm">
+      
+        <label>
+          Nombre:
+          <input type="text" id='nombre'/>
+        </label>
+        <label>
+          Apellido:
+          <input type="text" id='apellido'/>
+        </label>
+        <label>DNI</label>
+    <input type="text" id="dni" />
+    
+    <label>Fecha Ingreso</label>
+    <input type="text" id="fechaIngreso" />
+    
+    
+    <label>Domicilio:</label>
+                                  
+    <label>Calle</label>
+    <input type="text" id="calle" />
+    <label>Número</label>
+    <input type="text" id="numero" />
+    <label>Localidad</label>
+    <input type="text" id="localidad" />
+    <label>Provincia</label>
+    <input type="text" id="provincia" />
+
+  <button type="submit" className="botonRegistro">
+    Registrar paciente
+  </button>
+</form>
+
+
+
+
+    <h2>Registro para odontologos</h2>
+    <form id="registroOdontologoForm">
+        <label>Matricula:
+  <input type="text" id="matriculaOdon" />
+  </label>
+      <label>
+        Nombre:
+        <input type="text" id='nombreOdon'/>
+      </label>
+      <label>
+        Apellido:
+        <input type="text" id='apellidoOdon'/>
+      </label>
+
+
+
+<button type="submit" className="botonRegistro">
+  Registrar odontologo
+</button>
+</form>
+
+<h2>Lista pacientes</h2>
+<button id="btnMostrarPacientes">Mostrar Pacientes</button>
+
+<ul><div id="listaPacientes">
+  
+    
+</div></ul>
+
+<h2>Lista odontologos</h2>
+<button id="btnMostrarOdontologos">Mostrar odontologos</button>
+
+<div id="listaOdontologos">
+  
+    
+</div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
